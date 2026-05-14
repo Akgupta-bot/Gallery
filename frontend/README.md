@@ -1,16 +1,101 @@
-# React + Vite
+# React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React image gallery app built using React, Axios, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The app fetches random images from the Picsum API with pagination support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetch images using API
+- Pagination (Next / Prev)
+- Loading screen while fetching data
+- Responsive UI
+- Fixed navigation buttons
+- Built with React + Tailwind CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Axios
+- Tailwind CSS
+- Vite
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-image-gallery.git
+```
+
+Go to project folder:
+
+```bash
+cd react-image-gallery
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## API Used
+
+Picsum Photos API
+
+```bash
+https://picsum.photos/v2/list
+```
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── component/
+│   └── card.jsx
+│
+├── App.jsx
+├── main.jsx
+│
+public/
+```
+
+---
+
+## Screenshots
+
+Add your screenshots here.
+
+---
+
+## Future Improvements
+
+- Infinite scrolling
+- Search functionality
+- Image modal preview
+- Download images
+- Favorites system
+
+---
+
+## Author
+
+Anurag Kumar
